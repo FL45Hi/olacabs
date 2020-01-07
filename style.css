@@ -1,0 +1,369 @@
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+    font-size: 14px;
+    font-family: 'Gentona','Courier New', Courier, monospace;
+    font-weight: 400;    
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  -webkit-tap-highlight-color: transparent;
+  text-decoration: none;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.ola-header{
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nav-bar{
+    height: 2rem;
+}
+.nav-black{
+    background-color: black;
+    color: white;
+}
+
+.nav-white{
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: white;
+    color: black;
+    /* height: 3rem; */
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.14);
+    overflow: hidden;
+    text-align: right;
+    height: 55px;
+    width: 100%;
+
+   }
+
+.nav-bar-item{
+    justify-content: initial;
+    padding: 10px;
+}
+
+.nav-black a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.85);;
+}
+.nav-white a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: grey;
+}
+.nav-size{
+    height: 2rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.nav-btn{
+    height: 120%;
+    color: black;
+    background-color: #CCE600;
+    padding: 10px;
+    font-family: 'Gentona';
+    width: 130px;
+    box-shadow: none;
+    font-size: 16px;
+}
+
+#showcase{
+    background: url('./img/00000000383.jpg') no-repeat center;
+    height: 680px;
+    font-weight: bold;
+    position: relative;
+    /* text-align: center; */
+    padding: 120px 50px;
+    color: #fff;
+}
+#showcase .btn-wrapper {
+  max-width: 1200px;
+  margin: auto;
+  position: relative;
+}
+
+#showcase .top-banner-tab {
+  position: absolute;
+  max-width: 1200px;
+  left: 0;
+  right: 0;
+  top: 20%;
+  margin: auto;
+  padding-left: 80px;
+  z-index: 9;
+}
+#showcase .top-title{
+    color: white;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    
+    margin-bottom: 30px;
+    padding: 0 30px;
+    position: relative;
+    
+}
+#showcase .top-subtitle{
+    color:white;
+    position: relative;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 300;
+    padding: 0 20px;
+    margin: 10px;
+    
+}
+#wrapper {
+    display: flex;
+    flex-direction: row;
+}
+#left {
+    background-color: #dddddd;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 70%;
+}
+#right {
+    padding-left: 20px;
+    flex: 1;
+}
+
+
+/* Sign In */
+/*
+#signin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 75%;
+    padding-bottom: 1rem
+}
+*/
+/* 
+#signin form {
+    width: 60%;
+    padding-bottom: 2rem;
+}
+
+#signin .logo {
+    margin-top: 8vh;
+}
+
+#signin .logo img {
+    width: 50px;
+    align-content: center;
+    align-items: center
+}
+
+#signin label {
+    color: #222222;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    font-weight: 500;
+}
+
+#signin .text-input {
+    margin-bottom: 1.3rem;
+    width: 100%;
+  
+    background: grey;
+    border: 3px solid #555;
+    border-radius: 12px;
+    padding: 0.5rem 0.7rem;
+    line-height: 1.3rem;
+}
+
+#signin .primary-btn {
+    font-family: cursive;
+    width: 100%;
+    border: 1px solid #555;
+    border-radius: 12px;
+    padding: 0.5rem 0.7rem;
+    
+}
+
+#signin .secondary-btn,
+.or,
+.links {
+    width: 65%;
+}
+
+#signin .links a {
+    display: block;
+    color: #2b2727;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+#signin .or .bar {
+    flex: auto;
+    border: none;
+    height: 1px;
+    background: #aaaaaa;
+    margin: auto;
+}
+
+#signin .or span {
+    color: #643636;
+    padding: 0 0.8rem;
+}
+
+#signin .or {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.2rem;
+    align-items: center;
+} */ 
+
+.wrapper1 .overlay {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.wrapper1 .overlay-left {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  opacity: 0.6;
+  background-image: -webkit-gradient(linear, right top, left top, color-stop(28%, rgba(0, 0, 0, 0)), color-stop(77%, #000000));
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 28%, #000000 77%);
+  z-index: 2;
+  display: none;
+}
+
+.wrapper1 .wrapper1-item {
+    background-size: cover;
+    height: 675px;
+    position: relative;
+}
+
+.ola-booking-wrapper {
+  height: 680px;
+  position: relative;
+  width: 100%;
+}
+
+.ola-booking {
+  position: absolute;
+  width: 400px;
+  border-radius: 4px;
+  z-index: 10;
+  left: 0;
+  margin-top: 150px;
+}
+
+.ola-booking iframe {
+  width: 100%;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.ola-booking .booking-tab {
+  border-bottom: 1px solid rgba(151, 151, 151, 0.1);
+  padding: 10px 5px 10px 5px;
+  width: 100%;
+  background: #f5f5f5;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+height: 45px;
+}
+
+.ola-booking .booking-tab .tab-btn-wrapper {
+   width: 33%; 
+  float: left;
+}
+
+.ola-booking .booking-tab .tab {
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0px 10px;
+  height: 25px;
+  line-height: 28px;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: "Segoe UI", Roboto, Ubuntu, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.ola-booking .booking-tab .tab:hover {
+  color: #8EC44A;
+}
+
+.ola-booking .booking-tab .tab-active {
+  background: #CDDC39;
+  border-radius: 10px;
+}
+
+.ola-booking .city-iframe {
+  min-height: 300px;
+}
+
+.ola-booking .outstaion-iframe {
+  min-height: 300px;
+}
+
+.ola-booking .rental-iframe {
+  min-height: 300px;
+}

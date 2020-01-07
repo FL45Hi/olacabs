@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Book OLA Cabs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./img/favicon.ico" type="image/gif" sizes="16x16">
+</head>
+
+<body>
+    <header class="ola-header">
+        <div class="nav-bar nav-black navv">
+            <span class="left"></span>
+            <span class=" right">
+                <a class="nav-bar-item " href="#" target="_blank">Drive with OLA</a> |
+                <a class="nav-bar-item " href="#" target="_blank">OLA Money</a> |
+                <a class="nav-bar-item " href="#" target="_blank">OLA Corporate</a> |
+                <a class="nav-bar-item " href="#" target="_blank">OLA Foundation</a> |
+                <a class="nav-bar-item " href="#" target="_blank">Share</a> |
+                <a class="nav-bar-item " href="#" target="_blank">Offers</a> |
+                <a class="nav-bar-item " href="#" target="_blank">Support</a>
+            </span>
+        </div>
+
+        <div class="nav-bar nav-white ">
+            <span class="logo left"><img src="./img/ola-logo.svg" height=90%></span>
+            <span class=" nav-size right">
+                <a class="nav-bar-item nav-button" href="#">OLA Drive</a>
+                <a class="nav-bar-item nav-button" href="#">OLA Select</a>
+                <a class="nav-bar-item nav-button" href="#">OLA Fleet</a>
+                <a class="nav-bar-item nav-button" href="#">Features</a>
+                <button class="nav-btn">Book Now</button>
+            </span>
+        </div>
+    </header>
+
+    <!-- <section id="showcase">
+        <div id="wrapper">
+            <div id="left">
+                <div id="signin">
+                    <form>
+                        <div>
+                            <label>Email or Username</label>
+                            <input type="text" class="text-input" />
+                        </div>
+                        <div>
+                            <label>Password </label>
+                            <input type="text" class="text-input" />
+                        </div>
+                        <button type="submit" class="primary-btn">Sign In</button>
+                    </form>
+                </div>
+                
+            </div>
+        <div class="container right">
+            <h1 >CART Cabs at Lowest price</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, ipsam.</p>
+            <button class="primary-btn">BOOK</button>
+        </div>
+    </section> -->
+
+    <section style="background-image: url('img\00000000383.jpg');">
+        <div id="showcase">
+            <div class="wrapper1">
+                <div class="wrapper1-item banner">
+
+                    <div class="overlay"></div>
+                    <div class="overlay-left"></div>
+
+                    <h1 class="top-title">
+                        Ride out of town with Ola Outstation
+                    </h1>
+                    <label class="top-subtitle">Affordable one-way and round-trip packages</label>
+
+                    <div class="ola-booking-wrapper">
+                        <div class="ola-booking">
+                            <div class="booking-tab">
+                                <div class="tab-btn-wrapper text-center">
+
+                                    <a href="/" class="tab ">City Taxi</a>
+
+                                </div>
+                                <div class="tab-btn-wrapper text-center">
+
+                                    <a href="outstation.html" class="tab tab-active">Outstation</a>
+
+                                </div>
+                                <div class="tab-btn-wrapper text-center">
+
+                                    <a href="/rentals" class="tab">Rentals</a>
+
+                                </div>
+                            </div>
+                            <iframe src="https://bookingwidget.olacabs.com/outstation-cabs" class="city-iframe"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></body>
+
+</html>
