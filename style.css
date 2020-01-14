@@ -79,39 +79,44 @@ a {
  
 .nav-bar-item{
     justify-content: initial;
-    padding: 10px;
+    padding: 2px 8px;
 }
 
 .nav-black a{
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: rgba(255, 255, 255, 0.85);;
 }
 .nav-white a{
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: grey;
   
 }
 .nav-size{
-    height: 1.7rem;
+    height: 1.8rem;
     text-align: center;
     justify-content: center;
     
 }
-
+header .logo{
+  padding-left: 35px;
+}
 .nav-btn{
     height: 135%;
     color: #110e0e;
     background-color: #d1e800;
     font-family: 'Gentona','Roboto';
-    font-weight: 700;
     text-align: center;
     padding: 10px;
     font-size: 18px;
     border-radius: 5px;
-    display: inline-block;  
     width: 140px;
+
+}
+header a:hover{
+	color: #8EC44A;
+	font-weight: bold;
 }
 
 #showcase{
@@ -225,7 +230,7 @@ a {
   width: 100%;
   background: #f5f5f5;
   border-radius: 5px;
-height: 40px;
+  height: 40px;
 }
 
 .ola-booking .booking-tab .tab-btn-wrapper {
@@ -321,6 +326,11 @@ height: 40px;
     line-height: 1.3rem;
 }
 
+.form1 .when {
+    color: gray;
+    line-height: 1.3rem;
+}
+
 .form1 .primary-btn {
     background-color: #d1e800;
     font-family: cursive;
@@ -344,14 +354,16 @@ height: 40px;
   display: block;
   width: 100%;
   overflow: hidden;
-   padding: 0 60px;
+   padding: 0 65px;
+   margin-bottom: 20px;
+
 }
 
 #container .offers{
   text-align: center;
   height: 100px;
-  display: inline-block;
   vertical-align: middle;
+  
 }
 
 #container .offers .content{
@@ -363,6 +375,9 @@ height: 40px;
   margin: 20px 0px;
   border: 1.5px solid lightgrey;
   border-radius: 10px;
+background-color: aliceblue;
+padding: 10px
+;
  
 }
 
@@ -377,7 +392,7 @@ height: 40px;
   color: #f1f1f1;
 }
 
-#container .offers .content:hover h4 {
+#container .offers .content h4 {
   color: #8EC44A;
 }
 
@@ -385,14 +400,14 @@ height: 40px;
   height: 50px;
   width: 100%;
 }
-
+/* 
 #container .prev-btn {
   position: absolute;
-  left: 20px;
+  left: 30px;
   font-size: 0;
   z-index: 2;
   cursor: pointer;
-  top: 130%;
+  top: 135%;
   border: 1px solid white;
   width: 40px;
   height: 40px;
@@ -408,11 +423,11 @@ height: 40px;
 #container .next-btn {
   background: url("./img/arrowhead-right.png") no-repeat center;
   position: absolute;
-  right: 20px;
+  right: 30px;
   font-size: 0;
   z-index: 2;
   cursor: pointer;
-  top: 130%;
+  top: 135%;
   border: 1px solid white;
   width: 40px;
   height: 40px;
@@ -423,4 +438,161 @@ height: 40px;
 
 #container .next-btn:hover {
   opacity: 0.9;
+} */
+
+#showcase .ola-booking .form1 .place{
+  padding-left: 100px;
 }
+
+#container .top-title{
+    color: black;
+    font-weight: 600;
+    font-size: 36px;
+    position: relative;
+    margin-bottom: 10px;
+}
+#container .top-subtitle{
+    color:gray;
+    position: relative;
+    font-size: 1.1rem;
+    font-weight: 200;
+    margin: 5px;
+    padding-left: 1.5rem;
+}
+
+#container .offers
+{
+  background-color: #FFF;
+  height: 13%;
+  width: 85%;
+  border-color: #222;
+  position: relative;
+  margin: 0 20px;
+  box-shadow: 5px 10px #888888;
+   box-shadow: 10px 10px 8px #888888;
+  border: 1px solid #888888;
+  top: -150px;
+  left: 10%;
+}
+
+#container .cards{
+  width: 100%;
+  padding: 10px;
+}
+.items .wd-50 {
+  width: 50%;
+  float: left;
+}
+.items .wd-50:hover {
+  background-color: whitesmoke;
+}
+.items .wd-50:first-child {
+  padding-right: 20px;
+}
+
+.items .wd-50:nth-child(2) {
+  padding-left: 20px;
+}
+
+.items .list .wd-30 {
+  width: 30%;
+  float: left;
+}
+
+.items .list .wd-30 img {
+  max-width: 100%;
+  border-radius: 4px;
+  max-height: 110px;
+  margin-top: 22px;
+  padding: 0 10px;
+}
+.items .list .wd-30 img:hover {
+  max-width: 92%;
+  border-radius: 20px;
+  max-height: 110px;
+  margin-top: 22px;
+}
+
+.items .list .wd-70 {
+  width: 70%;
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.items .list .heading {
+  font-size: 22px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.items .list .info {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 300;
+  line-height: 22px;
+}
+
+.items .last-item {
+  margin-bottom: 20px;
+}
+
+.card .list .wd-70 {
+  width: 70%;
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.items .list .wd-70:hover {
+  background-color: lightgrey;
+  border-radius: 10px;
+}
+
+.items .list .heading {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  color: #000000;
+}
+.items .list .heading:hover {
+ color: green;
+ font-weight: bolder;
+}
+
+.items .list .info {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.items .last-item {
+  margin-bottom: 20px;
+}
+
+#box{
+  background-color: #FFF;
+  height: 13%;
+  width: 70%;
+  position: relative;
+  margin: 0 20px;
+   box-shadow: 10px 8px 5px #888888;
+   left: 10%;
+
+}
+
+#box img{
+  margin: 6px;
+}
+
+#box .item a{
+  justify-items: center;
+  text-align: center;
+}
+
+
+#box .item .item1{
+  display: inline-block;
+  padding: 0 7px;
+   box-shadow: 1px 10px 5px #888888;
+}
+
